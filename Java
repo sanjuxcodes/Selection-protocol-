@@ -1,0 +1,38 @@
+import java.util.Scanner;
+public class Selection {
+  public static void main(String[] args) {
+  System.out.println("Hello User! What's Your name?");
+  Scanner sc1 = new Scanner(System.in);
+  String name = sc1.nextLine();
+  System.out.println("hey  " + name);
+  System.out.println("Enter your cast(1: Gn,2: Obc,3: Sc,4: St):");
+  Scanner sc2 = new Scanner(System.in);
+  int cast=sc2.nextInt();
+   System.out.println("Enter your marks:");
+  Scanner sc3 = new Scanner(System.in);
+    int marks= sc3.nextInt();    
+
+
+  if(cast==1 && marks >=60){
+    System.out.println("Congrats! You are selected");
+  }
+  else if(cast==2 && marks >=55){
+    System.out.println("Congrats! You are selected");
+  }
+  else if (cast==3 && marks >=50){
+    System.out.println("Congrats! You are selected");
+  }
+
+  else if(cast==4 && marks >=40){
+    System.out.println("Congrats! You are selected");
+  }  
+  
+else 
+    System.out.println("Sorry! Better luck next time");
+    
+}  
+    
+    
+    
+    }
+
